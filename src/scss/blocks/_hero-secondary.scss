@@ -1,0 +1,24 @@
+.hero-secondary {
+  padding: var(--block-padding, 1rem);
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    margin: 0 auto;
+    color: var(--clr-pink);
+    font-size: var(--fs-primary-heading);
+    text-align: center;
+  }
+
+  p {
+    width: 75%;
+    text-align: center;
+  }
+
+  a {
+    color: var(--clr-white);
+  }
+}

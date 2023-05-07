@@ -1,0 +1,27 @@
+.social-media-links,
+.contact-info {
+  .icon {
+    aspect-ratio: 1;
+    fill: currentColor;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      width: var(--size-500);
+      margin-right: clamp(
+        var(--size-200),
+        -4.833rem + 26.667vw,
+        var(--size-400)
+      );
+    }
+  }
+
+  .social-link {
+    .icon {
+      width: var(--size-800);
+    }
+  }
+}

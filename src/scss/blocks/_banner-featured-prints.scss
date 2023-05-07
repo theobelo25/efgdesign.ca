@@ -1,0 +1,33 @@
+.banner-featured-prints {
+  padding-block: var(--block-padding);
+
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    p {
+      margin-bottom: var(--size-400);
+    }
+  }
+
+  a {
+    margin: 0 auto;
+    margin-bottom: var(--size-400);
+  }
+
+  .featured-prints {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .print {
+      flex-basis: 100%;
+
+      @media (min-width: 28em) {
+        flex: 0 0 45%;
+      }
+      @media (min-width: 53em) {
+        flex: 0 0 32%;
+      }
+    }
+  }
+}

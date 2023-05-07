@@ -1,0 +1,99 @@
+{
+    "key": "group_6455561d21ab0",
+    "title": "Block - Banner: Featured Prints",
+    "fields": [
+        {
+            "key": "field_64555d3a98576",
+            "label": "Heading",
+            "name": "heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64555d4898577",
+            "label": "Subheading",
+            "name": "subheading",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": "",
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_6455561d65b5b",
+            "label": "Featured Prints",
+            "name": "featured_prints",
+            "aria-label": "",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "S6WGF3IHJSH4CSB4SXDWVMPV": "10-2",
+                "4MTQLDTQG2DM27DYTR26EI6A": "Basecamp 2",
+                "RCMXHWO2FI5MAOS7E2M23QQB": "Basecamp 3",
+                "7YDD6UCQHR4MSYKPBYUGTGHS": "Campus Sunset 1",
+                "Y74NLNHC2QOQAQQJ6I2VI5HN": "Circus Sunset 1",
+                "VM4G5VCXUH5QCR5BRA36EZNX": "Circus Sunset 2",
+                "RPXAGM2G6PHTXZPSNHQSL4MY": "Shit Gas 1",
+                "7LAAVTJXDXLQEXFVNAS5HUVW": "Crafty",
+                "NFVR3TF6H3YYPLS63ODXWQUP": "Shit Gas 2",
+                "P6HLPMKVJJZ3VS7F2Z6T65E7": "Transpo"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/banner-featured-prints"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1683316060
+}

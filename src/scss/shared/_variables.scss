@@ -1,0 +1,44 @@
+:root {
+  --gap: 1rem;
+
+  --clr-orange: #ff5810;
+  --clr-pink: #ea376a;
+  --clr-yellow: #de9f00;
+  --clr-grey: #323b43;
+  --clr-white: white;
+  --clr-black: black;
+
+  --ff-primary: "Bungee Regular", sans-serif;
+  --ff-secondary: "Open Sans", serif;
+
+  --ff-body: var(--ff-secondary);
+  --ff-heading: var(--ff-primary);
+
+  --fw-regular: 400;
+
+  --fs-200: 0.5rem;
+  --fs-300: 0.75rem;
+  --fs-400: 1rem;
+  --fs-500: 1.25rem;
+  --fs-600: 1.75rem;
+  --fs-700: 2.25rem;
+
+  --fs-body: var(--fs-400);
+  --fs-primary-heading: clamp(var(--fs-600), 1.402rem + 1.739vw, var(--fs-700));
+  --fs-secondary-heading: clamp(1.5rem, 1.413rem + 0.435vw, 1.75rem);
+  --fs-nav: var(--fs-500);
+  --fs-button: var(--fs-400);
+
+  --size-100: 0.25rem;
+  --size-200: 0.5rem;
+  --size-300: 0.75rem;
+  --size-400: 1rem;
+  --size-500: 1.25rem;
+  --size-600: 1.5rem;
+  --size-700: 1.75rem;
+  --size-800: 2rem;
+  --size-900: 2.25rem;
+
+  --block-padding: var(--size-600);
+  --border-radius: var(--size-200);
+}

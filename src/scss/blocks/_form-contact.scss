@@ -1,0 +1,91 @@
+.contact-form-section {
+  padding-block: var(--block-padding, 1rem);
+  display: flex;
+  align-items: center;
+}
+
+.contact-information,
+.contact-form {
+  grid-column: span 12;
+  padding: var(--size-800);
+
+  @media (min-width: 50em) {
+    grid-column: span 6;
+  }
+}
+
+.contact-information {
+  align-self: center;
+
+  h1 {
+    margin-bottom: var(--size-500);
+    font-size: var(--fs-secondary-heading);
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  p:not(:last-of-type) {
+    margin-bottom: var(--size-200);
+  }
+
+  p:last-of-type {
+    margin-block: var(--size-400);
+    text-align: center;
+  }
+
+  .social-media-links {
+    justify-content: center;
+
+    .social-link .icon {
+      width: var(--size-900);
+    }
+  }
+}
+
+.contact-form {
+  .wpforms-field-label {
+    font-weight: 400;
+    color: inherit;
+  }
+
+  .wpforms-field {
+    padding: 0 !important;
+
+    &:not(:last-of-type) {
+      margin-bottom: var(--size-400) !important;
+    }
+  }
+
+  input,
+  textarea {
+    max-width: 100% !important;
+    font-family: var(--ff-body) !important;
+    border-radius: var(--border-radius) !important;
+  }
+
+  textarea {
+    resize: none;
+  }
+
+  .wpforms-submit-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .wpforms-submit {
+    padding-inline: 1.5rem !important;
+    background-color: var(--clr-orange) !important;
+    border-radius: var(--size-200) !important;
+    transition: color 300ms ease-in-out !important;
+
+    &:hover {
+      color: var(--clr-grey) !important;
+      background: none !important;
+      background-color: var(--clr-orange) !important;
+    }
+  }
+}

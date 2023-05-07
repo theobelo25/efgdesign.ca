@@ -1,0 +1,28 @@
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--gap, 1rem);
+}
+
+.hover {
+  transition: color 300ms ease-in-out;
+
+  &:hover {
+    color: var(--_clr-hover);
+  }
+}

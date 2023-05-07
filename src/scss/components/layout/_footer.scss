@@ -1,0 +1,113 @@
+.site-footer {
+  grid-auto-flow: dense;
+  padding-top: var(--size-400);
+
+  .site-info {
+    grid-column: span 5;
+
+    .site-title {
+      margin-bottom: var(--size-400);
+
+      a {
+        font-family: var(--ff-heading);
+        font-size: var(--fs-nav);
+      }
+    }
+
+    .contact-info {
+      margin-bottom: var(--size-400);
+
+      .contact-link {
+        margin-bottom: var(--size-200);
+      }
+    }
+  }
+
+  .footer-navigation {
+    grid-column: span 2;
+    padding-top: 2.875rem;
+
+    .menu {
+      a {
+        font-family: var(--ff-heading);
+      }
+
+      li:not(:last-of-type) {
+        margin-bottom: var(--size-400);
+      }
+    }
+  }
+
+  .footer-form {
+    grid-column: 9 / span 4;
+    font-family: var(--ff-body);
+
+    .wpforms-field-label {
+      font-weight: 400;
+      color: inherit;
+    }
+
+    input {
+      max-width: 400px !important;
+
+      @media (min-width: 50em) {
+        max-width: 100% !important;
+      }
+    }
+
+    .wpforms-submit-container {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .wpforms-submit {
+      padding-inline: 1.5rem !important;
+      background-color: var(--clr-orange) !important;
+      border-radius: var(--size-200) !important;
+      transition: color 300ms ease-in-out !important;
+
+      &:hover {
+        color: var(--clr-grey) !important;
+        background: none !important;
+        background-color: var(--clr-orange) !important;
+      }
+    }
+
+    .copyright {
+      margin-block: var(--size-100);
+    }
+  }
+
+  @media (max-width: 800px) {
+    .site-info {
+      grid-column: span 12;
+    }
+    .footer-navigation {
+      padding-top: var(--size-400);
+      grid-column: span 12;
+
+      .menu {
+        display: flex;
+        gap: var(--gap, 1rem);
+      }
+    }
+
+    .footer-form {
+      grid-column: 1 / span 12;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .site-info {
+      grid-column: span 12;
+    }
+    .footer-navigation {
+      padding-top: var(--size-400);
+      grid-column: span 12;
+
+      .menu {
+        display: block;
+      }
+    }
+  }
+}

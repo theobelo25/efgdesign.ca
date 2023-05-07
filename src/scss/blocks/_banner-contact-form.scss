@@ -1,0 +1,51 @@
+.banner-contact-form {
+  padding-block: var(--block-padding);
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    margin: 0 auto !important;
+
+    @media (min-width: 35em) {
+      width: 50% !important;
+    }
+
+    .wpforms-field-container {
+      width: 100%;
+    }
+
+    .wpforms-field {
+      padding: 0 !important;
+
+      &:not(:last-of-type) {
+        margin-bottom: var(--size-400) !important;
+      }
+    }
+
+    input,
+    textarea {
+      max-width: 100% !important;
+      border-radius: var(--border-radius) !important;
+      font-family: var(--ff-body) !important;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .wpforms-submit {
+      padding-inline: 1.5rem !important;
+      background-color: var(--clr-orange) !important;
+      border-radius: var(--size-200) !important;
+      transition: color 300ms ease-in-out !important;
+
+      &:hover {
+        color: var(--clr-grey) !important;
+        background: none !important;
+        background-color: var(--clr-orange) !important;
+      }
+    }
+  }
+}

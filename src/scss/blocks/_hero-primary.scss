@@ -1,0 +1,9 @@
+.hero-primary {
+  display: flex;
+  align-items: center;
+  min-height: 620px;
+
+  h1 {
+    font-size: var(--fs-primary-heading);
+  }
+}
