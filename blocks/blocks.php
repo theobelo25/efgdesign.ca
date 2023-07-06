@@ -67,8 +67,13 @@ function register_acf_blocks() {
 
     // Content
     require get_template_directory() . '/blocks/acf-blocks/content-product-list/register.php';
+    require get_template_directory() . '/blocks/acf-blocks/content-mosaic-gallery/register.php';
     
-    
+    // CV
+    require get_template_directory() . '/blocks/acf-blocks/cv-film-work/register.php';
+    require get_template_directory() . '/blocks/acf-blocks/cv-theatre-credits/register.php';
+    require get_template_directory() . '/blocks/acf-blocks/cv-skills/register.php';
+    require get_template_directory() . '/blocks/acf-blocks/cv-education/register.php';
 }
 
 /**

@@ -1,0 +1,37 @@
+.cv-film-work {
+  padding-block: var(--block-padding);
+
+  .film-work-entries {
+    .film-work-entry {
+      p,
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        margin-block: var(--block-padding);
+        grid-column: span 3;
+        text-align: center;
+
+        &:first-child {
+          justify-content: flex-start;
+          text-align: left;
+        }
+        &:last-child {
+          justify-content: flex-end;
+          text-align: right;
+        }
+      }
+      a {
+        color: var(--clr-white);
+        text-decoration: underline;
+        font-weight: 600;
+        transition: color 300ms ease-in-out;
+
+        &:hover {
+          color: var(--clr-grey);
+        }
+      }
+    }
+  }
+}

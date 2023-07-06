@@ -40,7 +40,7 @@ header {
   }
 }
 
-@media (max-width: 35em) {
+@media (max-width: 40em) {
   .nav-menu {
     --_clr-hover: var(--clr-orange);
     --gap: 2rem;
@@ -119,9 +119,9 @@ header {
   }
 }
 
-@media (min-width: 35em) {
+@media (min-width: 40em) {
   .nav-menu {
-    --gap: clamp(1.5rem, 5vw, 3rem);
+    --gap: clamp(1rem, -1.703rem + 5.424vw, 2.5rem);
     background: var(--clr-orange);
     padding-block: 1rem;
   }

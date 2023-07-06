@@ -1,0 +1,18 @@
+.cv-education {
+  padding-block: var(--block-padding);
+
+  .education-item {
+    grid-column: span 6;
+    flex-wrap: wrap;
+
+    .item-left {
+      flex: 0 1 70%;
+    }
+    .item-right {
+      flex: 0 1 30%;
+    }
+    .item-fw {
+      flex: 1 1 100%;
+    }
+  }
+}
